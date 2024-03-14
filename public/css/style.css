@@ -1,0 +1,12 @@
+/*fade animation */
+.hidden{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.hidden.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
